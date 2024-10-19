@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description></description>
+		<author>Andre Stampfl</author>
+		<update version="0.0.1">
+			<file url="https://chaosandre24.straw.page/" name="items.xml"/>
+		</update>
+	</info>
+
+	<element name="Soul Searchers" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_SOUL_SEARCHERS">
+		<description>
+			<p>While wearing these glasses, you will gain a <strong>bonus</strong> to your <strong>perception</strong> and <strong>investigation</strong> skills equal to your <strong>Charisma modifier</strong>. In addition, if you cannot see the <strong>outline of a soul</strong> you may see it while wearing the glasses.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Unique</set>
+			<set name="attunement">true</set>
+			<set name="slot">head</set>
+		</setters>
+		<rules>
+			<stat name="perception:misc" value="charisma:modifier"/>
+			<stat name="investigation:misc" value="charisma:modifier"/>
+		</rules>
+	</element>
+	<element name="A Song of Fire and Ice" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_A_SONG_OF_FIRE_AND_ICE">
+		<description>
+			<p>You have <strong>resistance</strong> to <strong>fire and cold damage</strong> while wearing this ring. This ring at first appears to be a copper ring but when you put it on, its true form is revealed. Is is made out of two interwining dragons, one gold, one white, which seem to be carved out of polished dragon scales with gems for eyes. The wearer can choose to make the ring look copper or like the interwining dragons to others</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Unique</set>
+			<set name="attunement">true</set>
+			<set name="slot">finger</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element>
+</elements>
