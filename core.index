@@ -1,0 +1,14 @@
+<?xml version="0.1" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Andre Stampfl Homebrew</name>
+		<description>Andre Stampfl Homebrew</description>
+		<author url="https://chaosandre24.straw.page/">Andre Stampfl</author>
+		<update version="0.1">
+			<file name="source.index" url="https://github.com/LukasSchwei/Aurora/blob/main/source.index" />
+		</update>
+	</info>
+	<files>
+		<file name="items.xml" url="https://github.com/LukasSchwei/Aurora/blob/main/items.xmll" />
+	</files>
+</index>
