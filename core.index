@@ -5,10 +5,10 @@
 		<description>Andre Stampfl Homebrew</description>
 		<author url="https://chaosandre24.straw.page/">Andre Stampfl</author>
 		<update version="0.1">
-			<file name="source.index" url="https://github.com/LukasSchwei/Aurora/blob/main/source.index" />
+			<file name="source.index" url="https://github.com/LukasSchwei/Aurora/blob/main/source.index"/>
 		</update>
 	</info>
 	<files>
-		<file name="items.xml" url="https://github.com/LukasSchwei/Aurora/blob/main/items.xmll" />
+		<file name="items.xml" url="https://github.com/LukasSchwei/Aurora/blob/main/items.xml"/>
 	</files>
 </index>
