@@ -5,7 +5,7 @@
 		<description>Andre Stampfl Homebrew</description>
 		<author url="https://chaosandre24.straw.page/">Andre Stampfl</author>
 		<update version="1.0">
-			<file name="source.index" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/core.index"/>
+			<file name="source.index" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/source.index"/>
 		</update>
 	</info>
 	<files>
