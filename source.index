@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="items.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Andre/items.xml"/>
-		<file name="items.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/items.xml"/>
+		<file name="andre-items.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Andre/andre-items.xml"/>
+		<file name="lukas-items.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/lukas-items.xml"/>
 	</files>
 </index>

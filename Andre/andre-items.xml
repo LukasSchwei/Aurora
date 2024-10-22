@@ -5,7 +5,7 @@
 		<description></description>
 		<author>Andre Stampfl</author>
 		<update version="0.0.1">
-			<file url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Andre/items.xml" name="items.xml"/>
+			<file url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Andre/andre-items.xml" name="andre-items.xml"/>
 		</update>
 	</info>
 

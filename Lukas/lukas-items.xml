@@ -5,7 +5,7 @@
 		<description></description>
 		<author>Lukas Schweighofer</author>
 		<update version="0.0.1">
-			<file url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/items.xml" name="items.xml"/>
+			<file url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/lukas-items.xml" name="lukas-items.xml"/>
 		</update>
 	</info>
 
