@@ -3,7 +3,7 @@
 	<info>
 		<name>Homebrew</name>
 		<description>Homebrew</description>
-		<author url="https://www.pornhub.com">Wir</author>
+		<author>Wir</author>
 		<update version="1.0">
 			<file name="source.index" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/source.index"/>
 		</update>

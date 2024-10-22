@@ -5,7 +5,7 @@
 		<description></description>
 		<author>Lukas Schweighofer</author>
 		<update version="0.0.1">
-			<file url="https://www.pornhub.com/" name="items.xml"/>
+			<file url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/items.xml" name="items.xml"/>
 		</update>
 	</info>
 
@@ -17,7 +17,6 @@
 			<set name="category">Homebrew</set>
 			<set name="cost" currency="gp">100</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Item</set>
 		</setters>
 	</element>
 </elements>
