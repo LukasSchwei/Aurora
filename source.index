@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Andre Stampfl Homebrew</name>
-		<description>Andre Stampfl Homebrew</description>
-		<author url="https://chaosandre24.straw.page/">Andre Stampfl</author>
+		<name>Homebrew</name>
+		<description>Homebrew</description>
+		<author url="https://www.pornhub.com">Wir</author>
 		<update version="1.0">
 			<file name="source.index" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/source.index"/>
 		</update>
 	</info>
 	<files>
-		<file name="items.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/items.xml"/>
+		<file name="items.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Andre/items.xml"/>
+		<file name="items.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/items.xml"/>
 	</files>
 </index>

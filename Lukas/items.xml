@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description></description>
+		<author>Lukas Schweighofer</author>
+		<update version="0.0.1">
+			<file url="https://www.pornhub.com/" name="items.xml"/>
+		</update>
+	</info>
+
+	<element name="Silencer" type="Item" source="Lukas Schweighofer Homebrew" id="ID_LUKAS_ITEM_SILENCER">
+		<description>
+			<p>While having this item equiped your gunshots can only be heard from all beings around you within 5ft.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Item</set>
+		</setters>
+	</element>
+</elements>
