@@ -19,4 +19,44 @@
 			<set name="weight" lb="0">0 lb.</set>
 		</setters>
 	</element>
+	<element name="Waterskin filled with ale" type="Item" source="Lukas Schweighofer Homebrew" id="ID_LUKAS_ITEM_WATERSKINFILLEDWITHALE">
+		<description>
+			<p>A waterskin filled with ale.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0">0 lb.</set>
+		</setters>
+	</element>
+	<element name="Flask of quality alcohol" type="Item" source="Lukas Schweighofer Homebrew" id="ID_LUKAS_ITEM_FLASKOFQUALITYALCOHOL">
+		<description>
+			<p>It's a flask filled with 2 liters of the finest beer from all around the world.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+		</setters>
+	</element>
+	<element name="Flask of 'the good stuff'" type="Item" source="Lukas Schweighofer Homebrew" id="ID_LUKAS_ITEM_FLASKOFTHEGOODSTUFF">
+		<description>
+			<p>It's a flask filled with 2 liters of the finest drink from all around the world. (You have no clue what it is)</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+		</setters>
+	</element>
+	<element name="Empty whiskey bottle" type="Item" source="Lukas Schweighofer Homebrew" id="ID_LUKAS_ITEM_EMPTYWHISKEYBOTTLE">
+		<description>
+			<p>It is a empty clear whiskey bottle. It does 1d6 + your strength modifier piercing damage.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+		</setters>
+	</element>
 </elements>

@@ -72,10 +72,10 @@
     <element name="Feature: Perserved innards" type="Background Feature" source="Lukas Schweighofer Homebrew" id="ID_LUKAS_BACKGROUND_FEATURE_PRESERVED_INNARDS">
         <supports>Background Feature</supports>
         <description>
-            <p>You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.</p>
+            <p>With years of drinking you have built a tolerance to almost any alcohol.  You are immune to the negative effects from basic alcohol and it takes twice as much to get you drunk.  You gain advantage when rolling constitution saving throws when related to food, drink, and hangovers.  Additionally you have Resistance to poisons so long as you have had at least 1 alcoholic drink in the last hour.</p>
         </description>
-        <sheet alt="False Identity">
-            <description>You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.</description>
+        <sheet alt="Perserved innards">
+            <description>With years of drinking you have built a tolerance to almost any alcohol.  You are immune to the negative effects from basic alcohol and it takes twice as much to get you drunk.  You gain advantage when rolling constitution saving throws when related to food, drink, and hangovers.  Additionally you have Resistance to poisons so long as you have had at least 1 alcoholic drink in the last hour.</description>
         </sheet>
     </element>
 </elements>
