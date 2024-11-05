@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Backgrounds</name>
+        <description></description>
+        <author>Lukas Schweighofer</author>
+        <update version="0.0.1">
+            <file url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/lukas-backgrounds.xml" name="lukas-backgrounds.xml"/>
+        </update>
+    </info>
+
+    <element name="Drunkard" type="Background" source="Lukas Schweighofer Homebrew" id="ID_LUKAS_BACKGROUND_DRUNKARD">
+        <description>
+            <p>You have taken drinking as your main profession.  The reasons used to be important, but time and the company of your vice have blurred those lines changing their meanings into a distant vague nightmare that only haunts your dreams.  Were you a soldier that has been scarred but the tragedies of war, a merchant that lost everything, or just someone that got lost in the party and decided to live that way forever?  Are you the life of the party, or do you disappear into the farthest corners of the tavern to wallow in your self created darkness?  You first stop in any town will almost always be the closest pub, tavern, or inn for a drink, and with that barkeeps can tell your type the minute you walk through the door.  You can talk your way into any group for a free drink, and are willing to put on a good show to earn it.  Being the Drunkard does have its advantages.  You have talked to so many different people and races that you have picked up a thing or two, sadly those things were picked up while drinking and have a tenancy to be a bit fuzzy.  You have also developed the keen ability to hold your alcohol, and with your Preserved Innards a few other perks.</p>
+            <ul class="unstyled">
+                <li>
+                    <strong>Skill Proficiencies:</strong> Persuasion, Performance</li>
+                <li>
+                    <strong>Tool Proficiencies:</strong> None</li>
+                <li>
+                    <strong>Equipment:</strong> 2 waterskins filled with ale, 1 flask filled with quality alcohol or 1 flask filled with "the good stuff"(magical item at DMs discretion), 2 empty whiskey bottles and one game set of choice. </li>
+            </ul>
+            <div element="ID_LUKAS_BACKGROUND_FEATURE_PRESERVED_INNARDS" />
+            <h5>SUGGESTED CHARACTERISTICS</h5>
+            <p>Who are you as a drunk? What are your reasons for being this way? Do you have a preferred alcohol or do you treat all alcohol equally?</p>
+        </description>
+        <setters>
+            <set name="short">Persuasion, Performance</set>
+        </setters>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+            <grant type="Background Feature" id="ID_LUKAS_BACKGROUND_FEATURE_PRESERVED_INNARDS" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+            <select name="Personality Trait" type="List" number="2">
+                <item id="1">Quiet and reserved, I find the corners of the tavern to be left alone.</item>
+                <item id="2">I joke and laugh about everything, even things that are inappropriate, and have a quick retort for every situation.</item>
+                <item id="3">I am a mean drunk, and meaner when I'm sober.</item>
+                <item id="4">Alcohol is my reason for living, I will travel the world for the best drinks!</item>
+                <item id="5">I am a drunk, oblivious to everything.</item>
+                <item id="6">I am the idiot savant. I know a large number of things, but only while drinking.</item>
+                <item id="7">Nothing will get between me and my drink!.</item>
+                <item id="8">I drink to forget, or was it to remember something? I need another drink...</item>
+            </select>
+            <select name="Ideal" type="List">
+                <item id="1">Self. I drink for me, I live for me, I always come first (Neutral Evil)</item>
+                <item id="2">Community. I Always try to include those around me in the fun (Good)</item>
+                <item id="3">Persuasive. Drinking is a tool. It can loosen any lips, bring happiness and bury darkness (Neutral)</item>
+                <item id="4">Quality. Everything in life must be brought to its highest standards, the alcohol must be the best and there is no exceptions (Lawful)</item>
+                <item id="5">Pride. I can drink more than anyone, and I'm willing to prove it! (Chaotic Good)</item>
+                <item id="6">Pain. Life is pain, and I will help the world drown in that pain, and alcohol (Evil)</item>
+            </select>
+            <select name="Bond" type="List">
+                <item id="1">My drinking party only has my closest friends, and once you are in I will protect you with my life.</item>
+                <item id="2">I create bonds with ease, as long as you are buying.</item>
+                <item id="3">My only friend is my pint.</item>
+                <item id="4">I will drink and create the best alcohol in the world!</item>
+                <item id="5">I will fight everyone in this room if they talk poorly about my barkeep or my town.</item>
+                <item id="6">I will face my demons, if I can remember them</item>
+            </select>
+            <select name="Flaw" type="List">
+                <item id="1">I never know when to back down, especially when it comes to drinking.</item>
+                <item id="2">I have an addiction, and that addiction is what drives me.</item>
+                <item id="3">I don't know when to shut up while drinking and often say things I will regret.</item>
+                <item id="4">When I get excessively drunk you can't understand a word I'm saying.</item>
+                <item id="5">I start fights when I'm drunk, even with my allies.</item>
+                <item id="6">If it smells like alcohol, you wont need to dare me to drink it, bottoms up!</item>
+            </select>
+        </rules>
+    </element>
+
+    <element name="Feature: Perserved innards" type="Background Feature" source="Lukas Schweighofer Homebrew" id="ID_LUKAS_BACKGROUND_FEATURE_PRESERVED_INNARDS">
+        <supports>Background Feature</supports>
+        <description>
+            <p>You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.</p>
+        </description>
+        <sheet alt="False Identity">
+            <description>You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.</description>
+        </sheet>
+    </element>
+</elements>
