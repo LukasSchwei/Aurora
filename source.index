@@ -12,5 +12,6 @@
 		<file name="andre-items.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Andre/andre-items.xml"/>
 		<file name="lukas-items.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/lukas-items.xml"/>
 		<file name="lukas-backgrounds.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/lukas-backgrounds.xml"/>
+		<file name="lukas-feats.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/lukas-feats.xml"/>
 	</files>
 </index>
