@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Feats</name>
+        <description></description>
+        <author>Lukas Schweighofer</author>
+        <update version="0.0.1">
+            <file url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/lukas-feats.xml" name="lukas-feats.xml"/>
+        </update>
+    </info>
+        <element name="Tavern Brawler 2024" type="Feat" source="Player’s Handbook 2024" id="ID_LUKAS_FEAT_TAVERNBRAWLER_2024">
+                <description>
+                    <p>Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:</p>
+                    <ul>
+                        <li><strong>Enhanced Unarmed Strike.</strong> When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d4 plus your Strength modifier instead of the normal damage of an Unarmed Strike.</li>
+                        <li><strong>Damage Rerolls.</strong> Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.</li>
+                        <li><strong>Improvised Weaponry.</strong> You have proficiency with improvised weapons.</li>
+                        <li><strong>Push.</strong> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn.</li>
+                    </ul>
+                </description>
+                <sheet>
+                    <description>You are proficient with improvised weapons.
+                    Your unarmed strike uses a d4 for damage.
+                    You can reroll 1s on your damage die for improvised weapon attacks and unarmed strikes.
+                    When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn.</description>
+                </sheet>
+            </element>
+</elements>
