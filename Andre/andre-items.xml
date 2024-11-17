@@ -27,6 +27,7 @@
 			<stat name="investigation:misc" value="charisma:modifier"/>
 		</rules>
 	</element>
+
 	<element name="A Song of Fire and Ice" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_A_SONG_OF_FIRE_AND_ICE">
 		<description>
 			<p>You have <strong>resistance</strong> to <strong>fire and cold damage</strong> while wearing this ring. This ring at first appears to be a copper ring but when you put it on, its true form is revealed. Is is made out of two interwining dragons, one gold, one white, which seem to be carved out of polished dragon scales with gems for eyes. The wearer can choose to make the ring look copper or like the interwining dragons to others</p>
@@ -44,5 +45,115 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
 		</rules>
+	</element>
+
+	<element name="Bottle o' Dragon" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_BOTTLE_O_DRAGON">
+		<description>
+			<p>The bottle contains a viscous orange liquid wich emits a faint glow, the bottle is marm to the touch. The liquid inside the bottle is unstable, and glows brighter and hotter if shaken.</p>
+			<p>
+				<strong>
+					<em>IF THROWN:</em>
+				</strong>
+			</p>
+			<p class = "indent">The bottle can be thrown with range 20/60 ft. Anyone within a 10 ft radius of the place where the bottle shatters must make a DC 15 DEX saving throw or take 8d6 fire damage, or half as much on a successful save.</p>
+			<p>
+				<strong>
+					<em>IF INGESTED:</em>
+				</strong>
+			</p>
+			<p class = "indent">For the next hour, see everything in thermal vision.</p>
+			<p class = "indent">Take 1 fire damage instantly and for the next minute take 1 fire damage per round.</p>
+			<p class = "indent">For 1 hour, or 3 charges, gain the ability to use your bonus action to blow fire in a 20 ft cone, creature in the cone must make a DC 15 DEX save or take 5d6 fire damage, or half as much on a successful save.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Unique</set>
+		</setters>
+	</element>
+
+	<element name="There can only be one" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_THERE_CAN_ONLY_BE_ONE">
+		<description>
+			<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a find or an undead with it, that creature takes an extra d10 radiant damage.</p>
+			<p>While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures frindly to you in the aura have advantage on saving thorws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.</p>
+			<p>For a 30 seconds a pair of Angel Wings sprout from your bakc for as long as you are bound to the sword you have walking flying speed equal to your walking speed. 3/long rest.</p>
+			<p>The sword is sentient and seeks vengeance upon its former master for as long as you remain bound to the sword it will gradually urge you to commit vengeance in its name and acts of unnecessary violence against the condemned, guilty, or evil alighned individuals to the point of taking control of its wielder while they sleep to do its bidding.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="enhancement">3</set>
+			<set name="rarity">Unique</set>
+			<set name="attunement">true</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+	</element>
+
+	<element name="Freaky Juice" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_FREAKY_JUICE">
+		<description>
+			<p>This ghasty crimson fluid has congealed blood clots floating in it an dreeks of decay. It's been harvested from the guts of an engorged stirge. Should you really drink it?</p>
+			<p>For 1 minute after drinking it, you are filled with a powerful, uncontrollable rage. You gain +2 to attack and damage rolls with melee weapons and are immune to the frightened condition. All attacks made against you during this time are at advantage as you abandon reason for bloodlust. When the effect ends you gain a level of exhaustion.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Unique</set>
+		</setters>
+	</element>
+
+	<element name="Boots of the Vigilant" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_BOOTS_OF_THE_VIGILANT">
+		<description>
+			<p>Sometimes, the simplest magic items are the best. When you want to go first in combat, whether to drop a hypnotic pattern onto enemies or just move into a more advantageous position, the boots of the Vigilant will help you make it happen. They add 1d8 to your initiative roll once per day. It's like gift of alacrity on a stick, but without the stick.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Unique</set>
+			<set name="attunement">true</set>
+			<set name="slot">Feet</set>
+		</setters>
+	</element>
+
+	<element name="Skibidi Camera" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_SKIBIDI_CAMERA">
+		<description>
+			<p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p>As a reaction, you can take a picture of another creature's spell, saving it as a Polaroid and allowing you to cast it yourself at any time. These spells don't consume spell slots, but instead charges. You can print up to 10 pictures each containing a spell.</p>
+			<p>Proficiency with a Club allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="club">Weapon</set>
+			<set name="enhancement">1</set>
+			<set name="rarity">Unique</set>
+			<set name="attunement">true</set>
+			<set name="weapon">Club</set>
+		</setters>
+	</element>
+
+	<element name="Technically 'Plate' Armor" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_TECHNICALLY_PLATE_ARMOR">
+		<description>
+			<p>Who needs to spend 1.500 gold pieces on a plate armor when you can don your finest wares? Technically 'Plate' Armor is whar happens when your fighter is cash-strapped and will do anything to get some decent Armor Class. This suit of magic armor gives you a whopping 20 AC. But each time you take damage, its effectiveness decreases. Take enough hits and the Technically 'Plate' Armor will shatter, dealing a small amount of piercing damage to you.</p>
+			<p>Luckily, once combat ends, you can tearfully pick up the pieces of your armor and have the pary spellcaster cast mending to put it back together for you.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="heavy">Armor</set>
+			<set name="rarity">Unique</set>
+			<set name="attunement">true</set>
+			<set name="slot">body</set>
+			<set name="armor">Plate</set>
+		</setters>
 	</element>
 </elements>
