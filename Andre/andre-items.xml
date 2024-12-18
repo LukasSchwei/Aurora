@@ -158,7 +158,7 @@
 		</setters>
 	</element>
 
-	<element name="Technically Infiltrator Arcane Armor" type="Magic Armor" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_TECHNICALLY_INFILTRATOR_ARCANE_ARMOR">
+	<element name="Technically Infiltrator Arcane 'Plate' Armor" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_TECHNICALLY_INFILTRATOR_ARCANE_PLATE_ARMOR">
 		<description>
 			<p>Who needs to spend 1.500 gold pieces on a plate armor when you can don your finest wares? Technically 'Plate' Armor is whar happens when your fighter is cash-strapped and will do anything to get some decent Armor Class. This suit of magic armor gives you a whopping 20 AC. But each time you take damage, its effectiveness decreases. Take enough hits and the Technically 'Plate' Armor will shatter, dealing a small amount of piercing damage to you.</p>
 			<p>Luckily, once combat ends, you can tearfully pick up the pieces of your armor and have the pary spellcaster cast mending to put it back together for you.</p>
@@ -182,7 +182,7 @@
 				</strong> You have advantage on Dexterity (Stealth) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal.</p>
 		</description>
 		<setters>
-			<set name="category">Magic Armor</set>
+			<set name="category">Homebrew</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">-</set>
 			<set name="type" addition="Plate">Armor</set>
@@ -190,9 +190,8 @@
 			<set name="attunement">true</set>
 			<set name="slot">body</set>
 			<set name="type">Armor</set>
-			<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+			<set name="armor">Plate</set>
 			<set name="enhancement">2</set>
-			<set name="name-format">Technically Infiltrator Arcane '{{parent}}' Armor</set>
 		</setters>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_IGNORE_STEALTH_DISADVANTAGE" />
