@@ -147,13 +147,33 @@
 		</description>
 		<setters>
 			<set name="category">Homebrew</set>
-			<set name="cost" currency="gp">300</set>
+			<set name="cost" currency="gp">1500</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type" addition="heavy">Armor</set>
+			<set name="type" addition="Plate">Armor</set>
 			<set name="rarity">Unique</set>
 			<set name="attunement">true</set>
 			<set name="slot">body</set>
 			<set name="armor">Plate</set>
+			<set name="enhancement">2</set>
+		</setters>
+	</element>
+
+	<element name="Technically 'Plate' Armor" type="Magic Armor" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_MAGIC_ARMOR_TECHNICALLY_PLATE_ARMOR">
+		<description>
+			<p>Who needs to spend 1.500 gold pieces on a plate armor when you can don your finest wares? Technically 'Plate' Armor is whar happens when your fighter is cash-strapped and will do anything to get some decent Armor Class. This suit of magic armor gives you a whopping 20 AC. But each time you take damage, its effectiveness decreases. Take enough hits and the Technically 'Plate' Armor will shatter, dealing a small amount of piercing damage to you.</p>
+			<p>Luckily, once combat ends, you can tearfully pick up the pieces of your armor and have the pary spellcaster cast mending to put it back together for you.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="Plate">Armor</set>
+			<set name="rarity">Unique</set>
+			<set name="attunement">true</set>
+			<set name="slot">body</set>
+			<set name="armor">Plate</set>
+			<set name="enhancement">2</set>
+			<set name="name-format">{{parent}} +{{enhancement}}</set>
 		</setters>
 	</element>
 </elements>
