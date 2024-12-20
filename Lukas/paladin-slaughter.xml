@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Oath of Slaughter Paladin</name>
+        <description></description>
+        <author>Ghostfire</author>
+        <update version="0.0.1">
+            <file url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/paladin-slaughter.xml" name="paladin-slaughter.xml"/>
+        </update>
+    </info>
+
+    <element name="Oath of Slaughter" type="Archetype" source="Grimhollow" id="ID_LUKAS_ARCHETYPE_PALADIN_OATH_OF_SLAUGHTER">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p>The only truth of war is death. The only virtue is to kill. The only victory is to survive. Heroism, honor, and glory are illusions. This is the creed of Tormach, Arch-Daemon of War, but this philosophy rings true for any warrior who devotes themselves, body and soul, to the thrill of combat and the delight of bloodshed. Such champions find themselves at the forefront of armies, using the most violent methods at their disposal to bring battles to a swift close… or drawing out the war to sate their own appetites.</p>
+            <h5 class="caption">Tenets of Slaughter</h5>
+            <p class="indent">
+                <b></b> Violence is the end, not the means.</p>
+            <p class="indent">
+                <b></b> Break the body to break the spirit.</p>
+            <p class="indent">
+                <b></b> Revel in bloodshed, whether friend or foe.</p>
+            <div element="ID_LUKAS_ARCHETYPE_FEATURE_OOS_OATH_SPELLS" />
+            <div element="ID_LUKAS_ARCHETYPE_FEATURE_OOS_CHANNEL_DIVINITY" />
+            <div element="ID_LUKAS_ARCHETYPE_FEATURE_OOS_BLOODTHIRST_AURA" />
+            <div element="ID_LUKAS_ARCHETYPE_FEATURE_OOS_FOLLOW_THROUGH" />
+            <div element="ID_LUKAS_ARCHETYPE_FEATURE_OOS_BLOOD_KNIGHT" />
+        </description>
+        <rules>
+            <grant type="Archetype Feature" id="ID_LUKAS_ARCHETYPE_FEATURE_OOS_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_LUKAS_ARCHETYPE_FEATURE_OOS_CHANNEL_DIVINITY" level="3" />
+            <grant type="Archetype Feature" id="ID_LUKAS_ARCHETYPE_FEATURE_OOS_BLOODTHIRST_AURA" level="7" />
+            <grant type="Archetype Feature" id="ID_LUKAS_ARCHETYPE_FEATURE_OOS_FOLLOW_THROUGH" level="15" />
+            <grant type="Archetype Feature" id="ID_LUKAS_ARCHETYPE_FEATURE_OOS_BLOOD_KNIGHT" level="20" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="Grimhollow" id="ID_LUKAS_ARCHETYPE_FEATURE_OOS_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>OATH OF SLAUGHTER SPELLS</h5>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Paladin Level</td>
+                        <td>Spells</td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>3rd</td>
+                    <td>
+                        <em>crimson lash, inflict wounds</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5th</td>
+                    <td>
+                        <em>bloodletter, shatter</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>9th</td>
+                    <td>
+                        <em>crusader's mantle, fear</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>13th</td>
+                    <td>
+                        <em>staggering smite, supernal smite</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>17th</td>
+                    <td>
+                        <em>destructive wave, steel wind strike</em>
+                    </td>
+                </tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_LUKAS_SPELL_CRIMSON_LASH" level="3" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_INFLICT_WOUNDS" level="3" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_LUKAS_SPELL_BLOODLETTER" level="5" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_SHATTER" level="5" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_CRUSADERS_MANTLE" level="9" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_FEAR" level="9" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_STAGGERING_SMITE" level="13" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_LUKAS_SPELL_SUPERNAL_SMITE" level="13" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_DESTRUCTIVE_WAVE" level="17" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_XGTE_SPELL_STEEL_WIND_STRIKE" level="17" spellcasting="Paladin" prepared="true"/>
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="Grimhollow" id="ID_LUKAS_ARCHETYPE_FEATURE_OOS_CHANNEL_DIVINITY">
+        <description>
+            <p>You can harness the rush of battle to drive you to even greater acts of violence. As a Bonus Action, you can expend one use of your Channel Divinity to enter a battle frenzy until the end of your next turn. While active, you gain the following benefits.</p>
+            <p class="indent">
+                <b>
+                    <i>Reflexive Attack.</i>
+                </b> If you miss with an attack roll using a Melee weapon or Unarmed Strike, you may use your Reaction to make another attack roll against a creature within reach using the same weapon or Unarmed Strike. If this second attack hits, you regain the use of your Reaction.</p>
+            <p class="indent">
+                <b>
+                    <i>Condition Resistance.</i>
+                </b> You have Advantage on saving throws to avoid or end the Charmed, Frightened, and Stunned conditions.</p>
+            <p class="indent">
+                <b>
+                    <i>Duration.</i>
+                </b> At the start of your next turn, you can extend its duration of Frenzied Slaughter for another round by making an attack roll against an enemy or forcing an enemy to make a saving throw. If you are Bloodied at the end of your turn, this feature’s duration is extended automatically with no action required. Each time this feature is extended, it lasts until the end of your next turn. You can maintain this feature for up to 1 minute.</p>
+        </description>
+        <sheet display="false">
+            <description>You have the Reflexive Attack and Condition Resistance Channel Divinity options.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_LUKAS_ARCHETYPE_FEATURE_OOS_CHANNEL_DIVINITY_BATTLE_FRENZY" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Battle Frenzy" type="Archetype Feature" source="Grimhollow" id="ID_LUKAS_ARCHETYPE_FEATURE_OOS_CHANNEL_DIVINITY_BATTLE_FRENZY">
+        <description>
+            <p>You can harness the rush of battle to drive you to even greater acts of violence. As a Bonus Action, you can expend one use of your Channel Divinity to enter a battle frenzy until the end of your next turn. While active, you gain the following benefits.</p>
+            <p class="indent">
+                <b>
+                    <i>Reflexive Attack.</i>
+                </b> If you miss with an attack roll using a Melee weapon or Unarmed Strike, you may use your Reaction to make another attack roll against a creature within reach using the same weapon or Unarmed Strike. If this second attack hits, you regain the use of your Reaction.</p>
+            <p class="indent">
+                <b>
+                    <i>Condition Resistance.</i>
+                </b> You have Advantage on saving throws to avoid or end the Charmed, Frightened, and Stunned conditions.</p>
+            <p class="indent">
+                <b>
+                    <i>Duration.</i>
+                </b> At the start of your next turn, you can extend its duration of Frenzied Slaughter for another round by making an attack roll against an enemy or forcing an enemy to make a saving throw. If you are Bloodied at the end of your turn, this feature’s duration is extended automatically with no action required. Each time this feature is extended, it lasts until the end of your next turn. You can maintain this feature for up to 1 minute.</p>
+        </description>
+        <sheet alt="Battle Frenzy" usage="Channel Divinity">
+            <description>
+                <p>You can harness the rush of battle to drive you to even greater acts of violence. As a Bonus Action, you can expend one use of your Channel Divinity to enter a battle frenzy until the end of your next turn. While active, you gain the following benefits.</p>
+                <p class="indent">
+                    <b>
+                        <i>Reflexive Attack.</i>
+                    </b> If you miss with an attack roll using a Melee weapon or Unarmed Strike, you may use your Reaction to make another attack roll against a creature within reach using the same weapon or Unarmed Strike. If this second attack hits, you regain the use of your Reaction.</p>
+                <p class="indent">
+                    <b>
+                        <i>Condition Resistance.</i>
+                    </b> You have Advantage on saving throws to avoid or end the Charmed, Frightened, and Stunned conditions.</p>
+                <p class="indent">
+                    <b>
+                        <i>Duration.</i>
+                    </b> At the start of your next turn, you can extend its duration of Frenzied Slaughter for another round by making an attack roll against an enemy or forcing an enemy to make a saving throw. If you are Bloodied at the end of your turn, this feature’s duration is extended automatically with no action required. Each time this feature is extended, it lasts until the end of your next turn. You can maintain this feature for up to 1 minute.</p>
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Bloodthirst Aura" type="Archetype Feature" source="Grimhollow" id="ID_LUKAS_ARCHETYPE_FEATURE_OOS_BLOODTHIRST_AURA">
+        <description>
+            <p>Your lust for blood infects those around you. Bloodied creatures of your choice within your Aura of Protection gain a bonus to weapon and Unarmed Strike damage rolls equal to your Charisma modifier.</p>
+            <p class="indent">Additionally, when a Bloodied creature within your Aura of Protection is targeted by a Sangromancy spell, you can use your Reaction to give the creature Disadvantage on the saving throw against that spell.</p>
+        </description>
+        <sheet>
+            <description>
+                <p>Your lust for blood infects those around you. Bloodied creatures of your choice within your Aura of Protection gain a bonus to weapon and Unarmed Strike damage rolls equal to your Charisma modifier.</p>
+                <p class="indent">Additionally, when a Bloodied creature within your Aura of Protection is targeted by a Sangromancy spell, you can use your Reaction to give the creature Disadvantage on the saving throw against that spell.</p>
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Follow Through" type="Archetype Feature" source="Grimhollow" id="ID_LUKAS_ARCHETYPE_FEATURE_OOS_FOLLOW_THROUGH">
+        <description>
+            <p>Whenever you deal damage to a creature with an attack using a Melee weapon or Unarmed Strike, if that damage causes the creature to become Bloodied, you may immediately make another attack roll with Advantage against a creature within reach using the same weapon or Unarmed Strike.</p>
+        </description>
+        <sheet action="Reaction">
+            <description>Whenever you deal damage to a creature with an attack using a Melee weapon or Unarmed Strike, if that damage causes the creature to become Bloodied, you may immediately make another attack roll with Advantage against a creature within reach using the same weapon or Unarmed Strike.</description>
+        </sheet>
+    </element>
+
+    <element name="Blood Knight" type="Archetype Feature" source="Grimhollow" id="ID_LUKAS_ARCHETYPE_FEATURE_OOS_BLOOD_KNIGHT">
+        <description>
+            <p>Your lust for blood imbues you with preternatural strength and resilience, allowing you to keep sowing slaughter. As a Bonus Action, you gain the following benefits for 10 minutes, or until you end them (no action required). Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p>
+            <ul>
+                <li>Each time a creature within your Aura of Protection becomes Bloodied, you gain 20 Temporary Hit Points.</li>
+                <li>When a creature hits you with a melee attack, you may use your Reaction to make an attack against that creature with a Melee weapon or Unarmed Strike if they are within reach.</li>
+                <li>Whenever you deal damage to a creature with a Melee weapon attack or Unarmed Strike, you deal damage equal to your Charisma modifier to each creature other than you who is within 5 feet of you or your target. This damage is of the same type as the initial attack.</li>
+            </ul>
+        </description>
+        <sheet action="Action" usage="1/Long Rest">
+            <description>
+                <p>Your lust for blood imbues you with preternatural strength and resilience, allowing you to keep sowing slaughter. As a Bonus Action, you gain the following benefits for 10 minutes, or until you end them (no action required). Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p>
+                <ul>
+                    <li>Each time a creature within your Aura of Protection becomes Bloodied, you gain 20 Temporary Hit Points.</li>
+                    <li>When a creature hits you with a melee attack, you may use your Reaction to make an attack against that creature with a Melee weapon or Unarmed Strike if they are within reach.</li>
+                    <li>Whenever you deal damage to a creature with a Melee weapon attack or Unarmed Strike, you deal damage equal to your Charisma modifier to each creature other than you who is within 5 feet of you or your target. This damage is of the same type as the initial attack.</li>
+                </ul>
+            </description>
+        </sheet>
+    </element>
+</element>

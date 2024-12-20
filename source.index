@@ -13,5 +13,7 @@
 		<file name="lukas-items.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/lukas-items.xml"/>
 		<file name="lukas-backgrounds.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/lukas-backgrounds.xml"/>
 		<file name="lukas-feats.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/lukas-feats.xml"/>
+		<file name="paladin-slaughter.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/paladin-slaughter.xml"/>
+		<file name="paladin-spells.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/paladin-spells.xml"/>
 	</files>
 </index>
