@@ -156,6 +156,9 @@
 			<set name="armor">Plate</set>
 			<set name="enhancement">2</set>
 		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
+		</rules>
 	</element>
 
 	<element name="Technically Infiltrator Arcane 'Plate' Armor" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_TECHNICALLY_INFILTRATOR_ARCANE_PLATE_ARMOR">
@@ -185,11 +188,10 @@
 			<set name="category">Homebrew</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">-</set>
-			<set name="type" addition="Plate">Armor</set>
+			<set name="type" addition="plate">Armor</set>
 			<set name="rarity">Unique</set>
 			<set name="attunement">true</set>
 			<set name="slot">body</set>
-			<set name="type">Armor</set>
 			<set name="armor">Plate</set>
 			<set name="enhancement">2</set>
 		</setters>
@@ -197,6 +199,7 @@
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_IGNORE_STEALTH_DISADVANTAGE" />
 			<grant type="Grants" id="ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT" />
 			<stat name="speed:misc" value="5" />
+			<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
 		</rules>
 	</element>
 </elements>

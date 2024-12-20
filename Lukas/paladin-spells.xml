@@ -12,8 +12,8 @@
     <element name="Crimson Lash" type="Spell" source="Grimhollow" id="ID_LUKAS_SPELL_CRIMSON_LASH">
         <supports>Paladin, Cleric</supports>
         <description>
-            <p>As part of casting this spell, you must expend a hit die or the spell automatically fails. If you do, a writhing lash of coagulated blood springs from your hand.</p>
-            <p>This magic weapon lasts until the spell ends. It counts as a simple weapon with which you are proficient, and it has the light, finesse, and reach properties. You can choose to add your spellcasting modifier, instead of your Strength or Dexterity modifier, to attack and damage rolls with this weapon. Its damage die is equivalent to the hit die expended casting this spell, and the damage dealt is necrotic. Each time a creature takes damage from this magic weapon, its maximum hit points are reduced by an amount equal to the damage it took.</p>
+            <p>As part of casting this spell, you must expend a hit die or the spell automatically fails. If you do, a writhing lash of coagulated blood springs from your hand.
+            This magic weapon lasts until the spell ends. It counts as a simple weapon with which you are proficient, and it has the light, finesse, and reach properties. You can choose to add your spellcasting modifier, instead of your Strength or Dexterity modifier, to attack and damage rolls with this weapon. Its damage die is equivalent to the hit die expended casting this spell, and the damage dealt is necrotic. Each time a creature takes damage from this magic weapon, its maximum hit points are reduced by an amount equal to the damage it took.</p>
             <p class="indent">
                 <b>
                     <i>At Higher Levels.</i>
@@ -38,8 +38,8 @@
     <element name="Bloodletter" type="Spell" source="Grimhollow" id="ID_LUKAS_SPELL_BLOODLETTER">
         <supports>Paladin, Cleric</supports>
         <description>
-            <p>You touch a nonmagical weapon. Until the spell ends, the next creature hit by the weapon must succeed on a Constitution saving throw or receive a festering wound. A creature with a festering wound takes 2d6 necrotic damage at the beginning of its turn for the remainder of the spell’s duration. A creature can only have one festering wound at a time.</p>
-            <p>Receiving at least 1 point of magical healing closes a festering wound, ending the recurring damage.</p>
+            <p>You touch a nonmagical weapon. Until the spell ends, the next creature hit by the weapon must succeed on a Constitution saving throw or receive a festering wound. A creature with a festering wound takes 2d6 necrotic damage at the beginning of its turn for the remainder of the spell’s duration. A creature can only have one festering wound at a time.
+            Receiving at least 1 point of magical healing closes a festering wound, ending the recurring damage.</p>
             <p class="indent">
                 <b>
                     <i>At Higher Levels.</i>
