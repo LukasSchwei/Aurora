@@ -140,6 +140,18 @@
 		</setters>
 	</element>
 
+	<element name="Skibidi Camera Polaroid" type="Item" source="PAndre Stampfl Homebrew" id="ID_ANDRE_ITEM_SKIBIDI_CAMERA_POLAROID">
+		<description>
+			<p>These Polaroids are used to capture spells with the Skibidi Camera.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="0.05">0 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
+
 	<element name="Technically 'Plate' Armor" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_TECHNICALLY_PLATE_ARMOR">
 		<description>
 			<p>Who needs to spend 1.500 gold pieces on a plate armor when you can don your finest wares? Technically 'Plate' Armor is whar happens when your fighter is cash-strapped and will do anything to get some decent Armor Class. This suit of magic armor gives you a whopping 20 AC. But each time you take damage, its effectiveness decreases. Take enough hits and the Technically 'Plate' Armor will shatter, dealing a small amount of piercing damage to you.</p>
@@ -202,4 +214,36 @@
 			<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
 		</rules>
 	</element>
-</elements>
+
+	<element name="Armbanduhr der Zeitwirbel" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_ARMBANDUHR_DER_ZEITWIRBEL">
+		<description>
+			<p>Du kannst jederzeit die Zeit um für 6 Sekunden stoppen. Danach erhältst du +1 Stufe Erschöpfung.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Unique</set>
+			<set name="attunement">true</set>
+			<set name="slot">Wrist</set>
+		</setters>
+	</element>
+
+	<element name="Das lachende Ei" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_DAS_LACHENDE_EI">
+		<description>
+			<p>Einmal pro Tag kannst du 'Hideous Laughter' wirken (DC 15). Zusätzlich kannst du mit einer Bonusaktion eine Kreatur in einem Umkreis von 30 ft für 1 Runde zum Lachen bringen (kein Rettungswurf).</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Unique</set>
+			<set name="attunement">true</set>
+			<set name="slot">Wrist</set>
+		</setters>
+	</element>
+
+
+	</elements>
