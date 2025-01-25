@@ -151,6 +151,7 @@
 			<set name="type">Ammunition</set>
 			<set name="stackable">true</set>
 		</setters>
+	</element>
 
 	<element name="Technically 'Plate' Armor" type="Magic Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_MAGIC_ITEM_TECHNICALLY_PLATE_ARMOR">
 		<description>
