@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Oath of the Undying Watch Paladin</name>
+        <description></description>
+        <author>Ghostfire</author>
+        <update version="0.0.1">
+            <file url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/paladin-watch.xml" name="paladin-watch.xml"/>
+        </update>
+    </info>
+
+    <element name="Oath of the Undying Watch" type="Archetype" source="Lars Pillhofer Homebrew" id="ID_LARS_ARCHETYPE_PALADIN_OATH_OF_THE_UNDYING_WATCH">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p>Der Oath of the Undying Watch bindet Paladine an den Schwur, die sterblichen Reiche vor den dunklen Mächten der Untoten und der Totenbeschwörung zu schützen. Diese Paladine widmen sich dem ewigen Kampf gegen jene, die die natürliche Ordnung des Todes stören, und sind entschlossen, jeden untoten Schrecken auszulöschen.</p>
+            <p>Paladine des Oath of the Undying Watch sind immer wachsam gegenüber den Mächten der Toten und jenen, die die Ruhe der Toten stören. Sie errichten Netzwerke von Informanten, um dunkle Nekromanten und versteckte Gräber zu überwachen, und lassen niemals den Geist der Verdorbenheit in Ruhe.</p>
+            <h5 class="caption">Tenets of the Undying Watch</h5>
+            <p>Ein Paladin, der den Oath of the Undying Watch annimmt, schwört, die Reiche der Sterblichen vor den Mächten der Untoten zu beschützen.</p>
+                <b>Vigilance. </b>The undead often lurk in the shadows. Be ever watchful of their influence and nefarious schemes.</p>
+            <p class="indent">
+                <b>Vigilanz. </b>Die Untoten lauern oft im Verborgenen. Sei stets wachsam gegenüber ihrem Einfluss und ihren ruchlosen Plänen.</p>
+            <p class="indent">
+                <b>Reinheit. </b>Akzeptiere niemals Hilfe oder Geschenke von jenen, die sich mit den Kräften des Todes oder der Nekromantie einlassen.</p>
+            <p class="indent">
+                <b>Unermüdlichkeit. </b>Die Bedrohung durch die Untoten endet nie. Dein Körper und Geist müssen bereit sein, unaufhörlich gegen die Dunkelheit zu kämpfen.</p>
+            <div element="ID_LARS_ARCHETYPE_FEATURE_OOTUW_OATH_SPELLS" />
+            <div element="ID_LARS_ARCHETYPE_FEATURE_OOTUW_CHANNEL_DIVINITY" />
+            <div element="ID_LARS_ARCHETYPE_FEATURE_OOTUW_AURA_OF_WARDING" />
+            <div element="ID_LARS_ARCHETYPE_FEATURE_OOTUW_MORTAL_STRIKE" />
+            <div element="ID_LARS_ARCHETYPE_FEATURE_OOTUW_UNYIELDING_SENTINEL" />
+        </description>
+        <rules>
+            <grant type="Archetype Feature" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_CHANNEL_DIVINITY" level="3" />
+            <grant type="Archetype Feature" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_AURA_OF_WARDING" level="7" />
+            <grant type="Archetype Feature" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_MORTAL_STRIKE" level="15" />
+            <grant type="Archetype Feature" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_UNYIELDING_SENTINEL" level="20" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="Lars Pillhofer Homebrew" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>OATH OF THE UNDYING WATCH SPELLS</h5>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Paladin Level</td>
+                        <td>Spells</td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>3rd</td>
+                    <td>
+                        <em>protection from evil and good, detect undead</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5th</td>
+                    <td>
+                        <em>gentle repose, moonbeam</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>9th</td>
+                    <td>
+                        <em>dispel magic, revivify</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>13th</td>
+                    <td>
+                        <em>death ward, aura of life</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>17th</td>
+                    <td>
+                        <em>banishing smite, hallow</em>
+                    </td>
+                </tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="3" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_3.5_SPELL_DETECT_UNDEAD" level="3" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_GENTLE_REPOSE" level="5" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_MOONBEAM" level="5" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" level="9" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_REVIVIFY" level="9" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" level="13" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_AURA_OF_LIFE" level="13" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_BANISHING_SMITE" level="17" spellcasting="Paladin" prepared="true"/>
+            <grant type="Spell" id="ID_PHB_SPELL_HALLOW" level="17" spellcasting="Paladin" prepared="true"/>
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="Lars Pillhofer Homebrew" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_CHANNEL_DIVINITY">
+        <description>
+            <p>Ab der 3. Stufe erhältst du zwei Möglichkeiten, deine göttliche Energie zu kanalisieren:</p>
+            <p class="indent">
+                <b>
+                    <i>Undead's Bane.</i>
+                </b> Du kannst deine Channel Divinity verwenden, um deine Waffe mit heiliger Macht zu erfüllen, die speziell gegen Untote wirkt. Als Bonusaktion kannst du für 1 Minute zusätzlichen Strahlenschaden in Höhe von 2d6 zu jedem Waffenschaden gegen Untote hinzufügen.</p>
+            <p class="indent">
+                <b>
+                    <i>Abjure the Undead.</i>
+                </b> Du kannst deine Channel Divinity verwenden, um Untote zu vertreiben. Als Aktion präsentierst du dein heiliges Symbol und jede untote Kreatur innerhalb von 30 Fuß, die dich sehen oder hören kann, muss einen Weisheitsrettungswurf machen. Bei einem misslungenen Rettungswurf wird die Kreatur für 1 Minute oder bis sie Schaden erleidet, vertrieben.</p>
+        </description>
+        <sheet display="false">
+            <description>You have the Undead's Bane and Abjure the Undead Channel Divinity options.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_CHANNEL_DIVINITY_UNDEADS_BANE" />
+            <grant type="Archetype Feature" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_CHANNEL_DIVINITY_ABJURE_THE_UNDEAD" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Undead's Bane" type="Archetype Feature" source="Lars Pillhofer Homebrew" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_CHANNEL_DIVINITY_UNDEADS_BANE">
+        <description>
+            <p>Du kannst deine Channel Divinity verwenden, um deine Waffe mit heiliger Macht zu erfüllen, die speziell gegen Untote wirkt. Als Bonusaktion kannst du für 1 Minute zusätzlichen Strahlenschaden in Höhe von 2d6 zu jedem Waffenschaden gegen Untote hinzufügen.</p>
+        </description>
+        <sheet alt="Undead's Bane" usage="Channel Divinity">
+            <description>
+                <p>Du kannst deine Channel Divinity verwenden, um deine Waffe mit heiliger Macht zu erfüllen, die speziell gegen Untote wirkt. Als Bonusaktion kannst du für 1 Minute zusätzlichen Strahlenschaden in Höhe von 2d6 zu jedem Waffenschaden gegen Untote hinzufügen.</p>
+            </description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Abjure the Undead" type="Archetype Feature" source="Lars Pillhofer Homebrew" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_CHANNEL_DIVINITY_ABJURE_THE_UNDEAD">
+        <description>
+            <p>Du kannst deine Channel Divinity verwenden, um Untote zu vertreiben. Als Aktion präsentierst du dein heiliges Symbol und jede untote Kreatur innerhalb von 30 Fuß, die dich sehen oder hören kann, muss einen Weisheitsrettungswurf machen. Bei einem misslungenen Rettungswurf wird die Kreatur für 1 Minute oder bis sie Schaden erleidet, vertrieben.</p>
+        </description>
+        <sheet alt="Abjure the Undead" usage="Channel Divinity">
+            <description>
+                <p>Du kannst deine Channel Divinity verwenden, um Untote zu vertreiben. Als Aktion präsentierst du dein heiliges Symbol und jede untote Kreatur innerhalb von 30 Fuß, die dich sehen oder hören kann, muss einen Weisheitsrettungswurf machen. Bei einem misslungenen Rettungswurf wird die Kreatur für 1 Minute oder bis sie Schaden erleidet, vertrieben.</p>
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Aura of Warding" type="Archetype Feature" source="Lars Pillhofer Homebrew" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_AURA_OF_WARDING">
+        <description>
+            <p>Ab der 7. Stufe erschaffst du eine Aura, die deine Verbündeten vor den Mächten der Untoten schützt. Du und freundliche Kreaturen innerhalb von 10 Fuß von dir haben Resistenz gegen nekrotischen Schaden und Vorteil auf Rettungswürfe gegen Effekte, die von Untoten stammen.</p>
+        </description>
+        <sheet>
+            <description>
+                <p>Ab der 7. Stufe erschaffst du eine Aura, die deine Verbündeten vor den Mächten der Untoten schützt. Du und freundliche Kreaturen innerhalb von 10 Fuß von dir haben Resistenz gegen nekrotischen Schaden und Vorteil auf Rettungswürfe gegen Effekte, die von Untoten stammen.</p>
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Mortal Strike" type="Archetype Feature" source="Lars Pillhofer Homebrew" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_MORTAL_STRIKE">
+        <description>
+            <p>Ab der 15. Stufe kannst du deine Angriffe so durchdringen, dass sie die Essenz der Untoten durchschneiden. Wenn du einen Untoten triffst, ignorierst du dessen Resistenz gegen nicht-magische Waffenangriffe und verursachst doppelten Schaden, wenn er eine Schwäche gegen Strahlenschaden hat.</p>
+        </description>
+        <sheet>
+            <description>
+                <p>Ab der 15. Stufe kannst du deine Angriffe so durchdringen, dass sie die Essenz der Untoten durchschneiden. Wenn du einen Untoten triffst, ignorierst du dessen Resistenz gegen nicht-magische Waffenangriffe und verursachst doppelten Schaden, wenn er eine Schwäche gegen Strahlenschaden hat.</p>
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Unyielding Sentinel" type="Archetype Feature" source="Lars Pillhofer Homebrew" id="ID_LARS_ARCHETYPE_FEATURE_OOTUW_UNYIELDING_SENTINEL">
+        <description>
+            <p>b der 20. Stufe kannst du als Aktion für 1 Minute zu einer unaufhaltsamen Kraft im Kampf gegen die Untoten werden. Für diese Dauer:</p>
+            <ul>
+                <li>Du erhältst Immunität gegen nekrotischen Schaden und die Zustände "Verängstigt" und "Grappled".</li>
+                <li>Du kannst nicht zu einem untoten Wesen wiederbelebt werden, selbst wenn du stirbst, bis dieser Effekt endet.</li>
+                <li>Deine Nahkampfangriffe verursachen zusätzlichen Strahlenschaden in Höhe deines Charismamodifikators.</li>
+            </ul>
+        </description>
+        <sheet action="Action">
+            <description>
+                <p>b der 20. Stufe kannst du als Aktion für 1 Minute zu einer unaufhaltsamen Kraft im Kampf gegen die Untoten werden. Für diese Dauer:</p>
+                <ul>
+                    <li>Du erhältst Immunität gegen nekrotischen Schaden und die Zustände "Verängstigt" und "Grappled".</li>
+                    <li>Du kannst nicht zu einem untoten Wesen wiederbelebt werden, selbst wenn du stirbst, bis dieser Effekt endet.</li>
+                    <li>Deine Nahkampfangriffe verursachen zusätzlichen Strahlenschaden in Höhe deines Charismamodifikators.</li>
+                </ul>
+            </description>
+        </sheet>
+    </element>
+</elements>
