@@ -18,6 +18,7 @@
             <set name="cost" currency="sp">30</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Item</set>
+			<set name="stackable">true</set>
 		</setters>
 	</element>
 

@@ -147,7 +147,6 @@
 		<setters>
 			<set name="category">Homebrew</set>
 			<set name="cost" currency="cp">5</set>
-			<set name="weight" lb="0.05">0 lb.</set>
 			<set name="type">Ammunition</set>
 			<set name="stackable">true</set>
 		</setters>
