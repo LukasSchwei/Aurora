@@ -140,7 +140,7 @@
 		</setters>
 	</element>
 
-	<element name="Skibidi Camera Polaroid" type="Item" source="PAndre Stampfl Homebrew" id="ID_ANDRE_ITEM_SKIBIDI_CAMERA_POLAROID">
+	<element name="Skibidi Camera Polaroid" type="Item" source="Andre Stampfl Homebrew" id="ID_ANDRE_ITEM_SKIBIDI_CAMERA_POLAROID">
 		<description>
 			<p>These Polaroids are used to capture spells with the Skibidi Camera.</p>
 		</description>
