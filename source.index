@@ -16,5 +16,6 @@
 		<file name="paladin-slaughter.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/paladin-slaughter.xml"/>
 		<file name="paladin-spells.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/paladin-spells.xml"/>
 		<file name="paladin-watch.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Lukas/paladin-watch.xml"/>
+		<file name="leo-items.xml" url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Leonard/leo-items.xml"/>
 	</files>
 </index>

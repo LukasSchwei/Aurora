@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description></description>
+		<author>Leonard Reisner</author>
+		<update version="0.0.1">
+			<file url="https://raw.githubusercontent.com/LukasSchwei/Aurora/refs/heads/main/Leonard/leo-items.xml" name="leo-items.xml"/>
+		</update>
+	</info>
+
+    <element name="Cuffs" type="Item" source="Leonard Reisner Homebrew" id="ID_LEO_ITEM_CUFFS">
+		<description>
+			<p>These Cuffs can be opened with a key or a Strength Saving Throw of 18 or higher.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+            <set name="cost" currency="sp">30</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Item</set>
+		</setters>
+	</element>
+
+    <element name="Detective Badge" type="Item" source="Leonard Reisner Homebrew" id="ID_LEO_ITEM_DETECTIVE_BADGE">
+		<description>
+			<p>This Badge can identify the owner as an officer of the law.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Item</set>
+		</setters>
+	</element>
+
+    <element name="Non-Magic Cuffs" type="Magic Item" source="Leonard Reisner Homebrew" id="ID_LEO__MAGIC_ITEM_NON_MAGIC_CUFFS">
+		<description>
+			<p>These Cuffs can be opened with a key or a Strength Saving Throw of 20 or higher. These Cuffs prevent the wearer of using all and any type of magic.</p>
+		</description>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="cost" currency="gp">45</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+
+</elements>
